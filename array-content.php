@@ -90,8 +90,8 @@ $websitechangelogs = "
 <div class='column-20'>
 	<div class='panel'>
 		<div class='panel-title'>
-			<button id='left' onclick='left();'> < </button>
 			<button id='right'onclick='right();'> > </button>
+			<button id='left' onclick='left();'> < </button>
 		</div>
 		<div class='content'>
 		</div>
