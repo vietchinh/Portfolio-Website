@@ -83,18 +83,18 @@
 		}
 		function fadetitle(number) {
 			if (number != 0){
-				$(".row").children("#websitechangelogs").children(".column-20").children(".panel").children(".panel-title").children("#left").fadeIn("fast");
+				$("#websitechangelogs").children(".panel").children(".panel-title").children("#left").fadeIn("fast");
 			}
 			else {
-				$(".row").children("#websitechangelogs").children(".column-20").children(".panel").children(".panel-title").children("#left").fadeOut("fast");
+				$("#websitechangelogs").children(".panel").children(".panel-title").children("#left").fadeOut("fast");
 			}
 			if (number != (title.length - 1) ){
-				$(".row").children("#websitechangelogs").children(".column-20").children(".panel").children(".panel-title").children("#right").fadeIn("fast");
+				$("#websitechangelogs").children(".panel").children(".panel-title").children("#right").fadeIn("fast");
 			}
 			else {
-				$(".row").children("#websitechangelogs").children(".column-20").children(".panel").children(".panel-title").children("#right").fadeOut("fast");
+				$("#websitechangelogs").children(".panel").children(".panel-title").children("#right").fadeOut("fast");
 			}
-			$(".row").children("#websitechangelogs").children(".column-20").children(".panel").children(".panel-title").children("h3").fadeOut("normal",
+			$("#websitechangelogs").children(".panel").children(".panel-title").children("h3").fadeOut("normal",
 			function() {
 				$(this).remove();
 				var h3 = document.createElement("h3");
@@ -103,7 +103,7 @@
 				document.getElementById("websitechangelogs").getElementsByClassName("panel-title")[0].appendChild(h3);
 				$(h3).fadeIn();
 			});
-			$(".row").children("#websitechangelogs").children(".column-20").children(".panel").children(".content").children("img").fadeOut("normal",
+			$("#websitechangelogs").children(".panel").children(".content").children("img").fadeOut("normal",
 			function() {
 				$(this).remove();
 				var img = document.createElement("img");
