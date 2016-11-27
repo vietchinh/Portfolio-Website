@@ -81,6 +81,13 @@ $aboutme = "
 		</p>
 	</div>
 </div>
+<div class='panel-sm'>
+	<div class='panel-title'>
+		<h3>InsertSomethingLater</h3>
+	</div>
+	<div class='content-sm'>
+	</div>
+</div>
 ";
 $websitechangelogs = "
 <div class='panel'>
