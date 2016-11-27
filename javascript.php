@@ -83,18 +83,18 @@
 		}
 		function fadetitle(number) {
 			if (number != 0){
-				$("#websitechangelogs").children(".panel").children(".panel-title").children("#left").fadeIn("fast");
+				$("#websitechangelogs").children(".column-20").children(".panel").children(".panel-title").children("#left").fadeIn("fast");
 			}
 			else {
-				$("#websitechangelogs").children(".panel").children(".panel-title").children("#left").fadeOut("fast");
+				$("#websitechangelogs").children(".column-20").children(".panel").children(".panel-title").children("#left").fadeOut("fast");
 			}
 			if (number != (title.length - 1) ){
-				$("#websitechangelogs").children(".panel").children(".panel-title").children("#right").fadeIn("fast");
+				$("#websitechangelogs").children(".column-20").children(".panel").children(".panel-title").children("#right").fadeIn("fast");
 			}
 			else {
-				$("#websitechangelogs").children(".panel").children(".panel-title").children("#right").fadeOut("fast");
+				$("#websitechangelogs").children(".pcolumn-20").children(".panel").children(".panel-title").children("#right").fadeOut("fast");
 			}
-			$("#websitechangelogs").children(".panel").children(".panel-title").children("h3").fadeOut("normal",
+			$("#websitechangelogs").children(".column-20").children(".panel-title").children("h3").fadeOut("normal",
 			function() {
 				$(this).remove();
 				var h3 = document.createElement("h3");
