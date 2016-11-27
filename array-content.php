@@ -19,7 +19,7 @@ $home = "
 </div>
 ";
 $aboutme = "
-<div class='column-5'>
+<div class='column-20'>
 	<div class='panel-sm'>
 		<div class='panel-title'>
 			<h3>Random Songs From My Playlist</h3>
@@ -32,8 +32,6 @@ $aboutme = "
 		</div>
 			<img src='http://www.foxinflame.tk/dev/MALembed/vietchinh?bg_color=FFFFFF&shadow=000000&shadow_amount=2'>
 	</div>
-</div>
-<div class='column-15'>
 	<div class='panel'>
 		<div class='panel-title'>
 			<h3>About Me</h3>
@@ -90,15 +88,14 @@ $aboutme = "
 ";
 $websitechangelogs = "
 <div class='column-20'>
-	<button id='left' onclick='left();'> < </button>
 	<div class='panel'>
 		<div class='panel-title'>
-			
+			<button id='left' onclick='left();'> < </button>
+			<button id='right'onclick='right();'> > </button>
 		</div>
 		<div class='content'>
 		</div>
 	</div>
-	<button id='right'onclick='right();'> > </button>
 </div>
 ";
 #End Content
