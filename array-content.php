@@ -90,14 +90,15 @@ $aboutme = "
 ";
 $websitechangelogs = "
 <div class='column-20'>
+	<button id='left' onclick='left();'> < </button>
 	<div class='panel'>
 		<div class='panel-title'>
-			<button id='right'onclick='right();'> > </button>
-			<button id='left' onclick='left();'> < </button>
+			
 		</div>
 		<div class='content'>
 		</div>
 	</div>
+	<button id='right'onclick='right();'> > </button>
 </div>
 ";
 #End Content
