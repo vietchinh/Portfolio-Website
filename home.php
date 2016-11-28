@@ -33,17 +33,17 @@ ob_start("ob_gzhandler");
 					reset($content);
 				?>
 			</div>
-		<?php
-			while (current($content)){
-				$contentkey = key($content);
-				echo "
-				<div id='{$content[$contentkey][1]}'> 
-					{$content[$contentkey][0]}
-				</div>";
-				next($content);
-			}
-			reset($content);
-		?>
+				<?php
+					while (current($content)){
+						$contentkey = key($content);
+						echo "
+						<div id='{$content[$contentkey][1]}'> 
+							{$content[$contentkey][0]}
+						</div>";
+						next($content);
+					}
+					reset($content);
+				?>
 		<?php require_once "javascript.php"; ?>
 		</body>
 	</html>
