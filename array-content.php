@@ -24,10 +24,14 @@ $aboutme = "
 	<div class='content-sm'>
 		<iframe src='https://www.youtube.com/embed/{$randomsong}' frameborder='0' allowfullscreen></iframe>
 	</div>
+</div>
+<div class='panel-sm'>
 	<div class='panel-title'>
 		<h3>My Anime List Emblem</h3>
 	</div>
+	<div class='content-sm'>
 		<img src='http://www.foxinflame.tk/dev/MALembed/vietchinh?bg_color=FFFFFF&shadow=000000&shadow_amount=2'>
+	</div>
 </div>
 <div class='panel'>
 	<div class='panel-title'>
